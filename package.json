@@ -1,0 +1,11 @@
+{
+	"name": "comfort",
+	"main": "./comfort.js",
+	"devDependencies": {
+		"mocha": "*",
+		"chai": "*"
+	},
+	"scripts": {
+		"test": "node_modules/.bin/mocha"
+	}
+}
