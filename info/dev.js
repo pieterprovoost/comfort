@@ -1,5 +1,3 @@
 var comfort = require("../comfort");
 
-var p = new comfort.Pmv(1.2, 0, 28, 28, 1, 0.1, 60);
-
-console.log(JSON.stringify(p, null, 4));
+console.log(JSON.stringify(new comfort.Pmv(1.2, 0, 22, 22, 0.5, 0.1, 60), null, 4));
