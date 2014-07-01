@@ -175,7 +175,7 @@
 
 					// heat balance
 
-					this.diffusion = - 3.05 * 1e-3 * (ps - pa);
+					this.diffusion = - 3.05 * 1e-3 * (5733 - 6.99 * (m - w) - pa);
 					this.sweat = - 0.42 * (m - w - 58.15);
 					this.evaporation = this.diffusion + this.sweat;
 
