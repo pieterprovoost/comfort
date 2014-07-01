@@ -188,6 +188,7 @@
 					this.convection = - fcl * hc * (this.tcl - ta);
 					
 					this.pmv = (0.303 * Math.exp(-0.036 * m) + 0.028) * (m - w + this.evaporation + this.respiration + this.radiation + this.convection);
+					this.ppd = 100 - 95 * Math.exp(-0.03353 * Math.pow(this.pmv, 4) - 0.2179 * Math.pow(this.pmv, 2));
 
 					this.balance = this.m - this.w + this.radiation + this.convection + this.evaporation + this.respiration;
 
