@@ -9,3 +9,11 @@ describe('comfort.Pmv', function() {
 		});
 	});
 });
+describe('comfort.Local', function() {
+	describe("#draught", function() {
+		it("should return the correct value", function() {
+			assert.closeTo(comfort.Local.draught(20, 0.1, 40), 10.1, 0.1);
+			assert.closeTo(comfort.Local.draught(20, 0.3, 40), 44.9, 0.1);
+		});
+	});
+});
