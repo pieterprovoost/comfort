@@ -132,6 +132,10 @@
 					return dr;
 				};
 
+				Local.floor = function(t) {
+					return 100 - 94 * Math.exp(-1.387 + 0.118 * t - 0.0025 * Math.pow(t, 2));
+				}
+
 				module.exports.Local = Local;
 			},
 			"pmv.js": function (exports, module, require) {
