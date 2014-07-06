@@ -1,3 +1,7 @@
 var comfort = require("../comfort");
 
-console.log(JSON.stringify(new comfort.Pmv(1.2, 0, 22, 22, 0.5, 0.1, 60), null, 4));
+console.log(comfort.Local.vertical(10));
+console.log(comfort.Local.warmCeiling(10));
+console.log(comfort.Local.coolWall(10));
+console.log(comfort.Local.coolCeiling(15));
+console.log(comfort.Local.warmWall(20));
