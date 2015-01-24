@@ -1,6 +1,9 @@
 {
 	"name": "comfort",
 	"main": "./comfort.js",
+	"dependencies": {
+		"jerzy": "0.2.0"
+	},
 	"devDependencies": {
 		"mocha": "*",
 		"chai": "*"
