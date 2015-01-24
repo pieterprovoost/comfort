@@ -1,6 +1,6 @@
 # comfort
 
-Calculation of the PMV and PPD indices and local thermal comfort criteria (ISO 7730:2006).
+Calculation of the PMV and PPD indices and local thermal comfort criteria (ISO 7730:2006)
 
 ## Usage
 
