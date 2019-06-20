@@ -1,5 +1,6 @@
 {
 	"name": "comfort",
+	"version": "1.0.0",
 	"main": "./comfort.js",
 	"dependencies": {
 		"jerzy": "0.2.0"
